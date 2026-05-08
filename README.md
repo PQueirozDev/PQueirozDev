@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Pedro 👋</h1>
 
 <h3 align="center">
-Front-End Developer • JavaScript Learner 
+Front-End Developer 
 </h3>
 
 <p align="center">
