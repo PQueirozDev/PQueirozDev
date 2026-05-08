@@ -1,11 +1,11 @@
 <h1 align="center">Hey, I'm Pedro 👋</h1>
 
 <h3 align="center">
-Front-End Developer • JavaScript Learner • Gamer 🎮
+Front-End Developer • JavaScript Learner 
 </h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PQue&label=PROFILE+VIEWS&color=blueviolet&style=for-the-badge"/>
+  <img src="https://komarev.com/ghpvc/?username=PQueirozDev&label=PROFILE+VIEWS&color=blueviolet&style=for-the-badge"/>
 </p>
 
 <div align="center">
@@ -36,6 +36,13 @@ Front-End Developer • JavaScript Learner • Gamer 🎮
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"/>
 </p>
 
+### ⚙️ Back-End
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
+</p>
+
 ---
 
 ## 🛠 Tools
@@ -60,9 +67,9 @@ Front-End Developer • JavaScript Learner • Gamer 🎮
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?PQueirozDev=PQue&show_icons=true&theme=tokyonight"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=PQueirozDev&show_icons=true&theme=tokyonight"/>
 
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?PQueirozDev=PQue&layout=compact&theme=tokyonight"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PQueirozDev&layout=compact&theme=tokyonight"/>
 </div>
 
 ---
@@ -70,7 +77,7 @@ Front-End Developer • JavaScript Learner • Gamer 🎮
 ## 🌍 Let's Connect
 
 <p align="left">
-  <a href="https://github.com/PQue">
+  <a href="https://github.com/PQueirozDev">
     <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
   </a>
 </p>
