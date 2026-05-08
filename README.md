@@ -1,91 +1,40 @@
-<h1 align="center">Hey, I'm Pedro 👋</h1>
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Pedro Queiroz
+======================================================================================================================================
 
-<h3 align="center">
-Front-End Developer 
-</h3>
+Front-End Developer
+-------------------
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PQueirozDev&label=PROFILE+VIEWS&color=blueviolet&style=for-the-badge"/>
-</p>
+🌐 = Website Project
 
-<div align="center">
-  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="300px"/>
-</div>
+📱 = Responsive Design
 
----
+⚡ = JavaScript Project
 
-## 🚀 About Me
+🎮 = Gaming Related
 
-💻 Focused on Front-End Development  
-🎓 Studying Computer Science  
-📚 Learning JavaScript, HTML & CSS  
-🐍 Basic knowledge in Python and C  
-🎮 Gamer and tech enthusiast  
-⚡ Building projects and improving every day  
-🌍 Focused on becoming a professional developer
+🧠 = Logic Practice
 
----
+🛠 = Development Tool
 
-## 🧠 Tech Stack
+🚀 = Project in Progress
 
-### 📱 Front-End
+* 🌍  I'm based in São Paulo
+* 🖥️  See my portfolio at [https://github.com/PQueirozDev/Loja-de-Games](http://p)
+* ✉️  You can contact me at [pedro26br158@gmail.com](mailto:pedro26br158@gmail.com)
+* 🧠  I'm currently learning Front-End
+* 👥  I'm looking to collaborate on Development projects
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"/>
+<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" alt="VS Code" title="VS Code" width="36" height="36" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML5" title="HTML5" width="36" height="36" /></a><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="CSS3" title="CSS3" width="36" height="36" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" alt="C" title="C" width="36" height="36" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" alt="Python" title="Python" width="36" height="36" /></a>
 </p>
 
-### ⚙️ Back-End
+### Socials
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
-</p>
+<p align="left"> <a href="https://www.github.com/PQueirozDev" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a> <a href="https://www.linkedin.com/in/pedro-henrique-da-silva-queiroz-3a073a353/" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" title="LinkedIn" /> </picture> </a></p>
+<a href="https://www.github.com/PQueirozDev" target="_blank" rel="noreferrer"><img
+src="https://img.shields.io/github/followers/PQueirozDev?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+### Badges
 
----
+<b>Top Repositories</b>
 
-## 🛠 Tools
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45"/>
-</p>
-
----
-
-## 📌 Featured Projects
-
-🌐 Personal Portfolio  
-🎮 Gaming Website  
-📱 Responsive Landing Pages  
-⚡ JavaScript Mini Projects
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=PQueirozDev&show_icons=true&theme=tokyonight"/>
-
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PQueirozDev&layout=compact&theme=tokyonight"/>
-</div>
-
----
-
-## 🌍 Let's Connect
-
-<p align="left">
-  <a href="https://github.com/PQueirozDev">
-    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
-  </a>
-</p>
-
----
-
-<div align="center">
-
-### ✨ Code. Learn. Repeat.
-
-</div>
+<div width="100%" align="center"><a href="https://github.com/PQueirozDev/Loja-de-Games" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=PQueirozDev&repo=Loja-de-Games&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a><a href="https://github.com/PQueirozDev/ Site-Lanchonete" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=PQueirozDev&repo= Site-Lanchonete&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
