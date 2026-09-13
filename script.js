@@ -168,6 +168,7 @@
       if (dictionary[descriptionKey]) description.content = dictionary[descriptionKey];
     }
     language = language === "pt" ? "en" : "pt";
+    localStorage.setItem("portfolio-language", language);
     button.textContent = language === "pt" ? "EN" : "PT";
     document.documentElement.lang = language === "pt" ? "pt-BR" : "en";
   });
