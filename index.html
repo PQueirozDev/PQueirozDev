@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedro Queiroz | Portfolio</title>
+  <meta name="description" content="Desenvolvedor Full Stack. Conheça meus projetos, experiências e conteúdo sobre desenvolvimento e tecnologia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&gt;_</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- glow decor -->
+  <div class="glow glow-1" aria-hidden="true"></div>
+  <div class="glow glow-2" aria-hidden="true"></div>
+
+  <div class="page">
+
+    <!-- ============ SIDEBAR ============ -->
+    <aside class="sidebar">
+      <div class="side-inner">
+        <div class="side-code" aria-hidden="true">++++</div>
+
+        <div class="avatar-wrap">
+          <div class="avatar">
+            <span>SN</span>
+            <span class="status-dot" title="Online"></span>
+          </div>
+        </div>
+
+        <h1 class="side-name">Pedro Queiroz</h1>
+        <p class="side-handle">@PQueiroz Studio</p>
+
+        <p class="side-role">Dev Front-end · Automações</p>
+
+        <div class="side-meta">
+          <div class="meta-row">
+            <svg class="ic" viewBox="0 0 24 24"><path d="M12 21s-7-5.1-7-11a7 7 0 1 1 14 0c0 5.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            <span>Base</span><b>São Paulo, BR</b>
+          </div>
+          <div class="meta-row">
+            <svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+            <span>Hora local</span><b class="clock" id="clock">--:--</b>
+          </div>
+          <div class="meta-row">
+            <svg class="ic" viewBox="0 0 24 24"><path d="M4 20V10m6 10V4m6 16v-7m5 7H2"/></svg>
+            <span>Status</span><b>Disponível</b>
+          </div>
+        </div>
+
+        <p class="side-bio">
+          Sou desenvolvedor front-end e estudante de Ciências da Computação no Senac. Também desenvolvo e vendo sites para empresas, ajudando negócios a terem presença digital profissional.
+        </p>
+
+        <nav class="side-nav" aria-label="Seções">
+          <a href="#projetos">Projetos</a>
+          <a href="#xp">Experiência</a>
+          <a href="#edu">Formação</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </aside>
+
+    <!-- ============ MAIN ============ -->
+    <main class="main">
+
+      <!-- HERO -->
+      <section class="hero">
+        <p class="hero-kicker">$ whoami<span class="cursor">_</span></p>
+        <h2 class="hero-title">Construo coisas<br /><span class="grad">que funcionam.</span></h2>
+        <p class="hero-sub">
+         Dev front-end, apaixonado por transformar ideias em interfaces bonitas e funcionais. Estudo Ciências da Computação no Senac e desenvolvo sites para empresas que querem presença digital profissional. Aqui você encontra meus projetos, um pouco do que aprendo pelo caminho e como podemos trabalhar juntos.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contato">Entrar em contato</a>
+        </div>
+      </section>
+
+      <!-- SKILLS MARQUEE -->
+      <section class="skills" aria-label="Tecnologias">
+        <div class="marquee">
+          <div class="marquee-track">
+            <!-- set A -->
+            <span>JavaScript</span><span class="dot">·</span>
+            <span>React</span><span class="dot">·</span>
+            <span>Node.js</span><span class="dot">·</span>
+            <span>Python</span><span class="dot">·</span>
+            <span>PostgreSQL</span><span class="dot">·</span>
+            <span>Docker</span><span class="dot">·</span>
+            <span>Git</span><span class="dot">·</span>
+            <!-- set B (repeat) -->
+            <span>JavaScript</span><span class="dot">·</span>
+            <span>React</span><span class="dot">·</span>
+            <span>Node.js</span><span class="dot">·</span>
+            <span>Python</span><span class="dot">·</span>
+            <span>PostgreSQL</span><span class="dot">·</span>
+            <span>Docker</span><span class="dot">·</span>
+            <span>Git</span><span class="dot">·</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section" id="projetos">
+        <div class="section-head">
+          <h3>Projetos</h3>
+          <span class="head-line"></span>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <a class="project-shot" href="/Screenshot_1.png" target="_blank" rel="noreferrer">
+              <img src="/Screenshot_1.png" alt="Sistema de orçamentos da Aquecedores Fortes" loading="lazy" onerror="this.style.display='none'" />
+            </a>
+            <div class="project-info">
+              <div class="project-top">
+                <h4>Aquecedores Fortes</h4>
+                <span class="tag">Sistema web</span>
+              </div>
+              <p>
+                Sistema interno de orçamentos com catálogo de aquecedores por marca (Lorenzetti, Rinnai),
+                gestão de clientes e serviços. Desenvolvido para agilizar o dia a dia da empresa.
+              </p>
+              <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-shot" href="/Screenshot_4.png" target="_blank" rel="noreferrer">
+              <img src="/Screenshot_4.png" alt="Dashboard de gestão do PQueiroz Studio" loading="lazy" onerror="this.style.display='none'" />
+            </a>
+            <div class="project-info">
+              <div class="project-top">
+                <h4>PQueiroz Studio</h4>
+                <span class="tag">Dashboard</span>
+              </div>
+              <p>
+                Painel de gestão com visão de receita, clientes, projetos, domínios e hospedagens —
+                o dashboard que uso para administrar meus projetos e clientes.
+              </p>
+              <div class="chips"><span>JavaScript</span><span>Dashboard</span><span>Gestão</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-shot" href="/Screenshot_3.png" target="_blank" rel="noreferrer">
+              <img src="/Screenshot_3.png" alt="Dashboard de gestão do PQueiroz Studio" loading="lazy" onerror="this.style.display='none'" />
+            </a>
+            <div class="project-info">
+              <div class="project-top">
+                <h4>Barbearia</h4>
+                <span class="tag">Site e cadastro de clientes</span>
+              </div>
+              <p>
+                Site institucional com demostracao dos servicos e cadastro de clientes.
+              </p>
+              <div class="chips"><span>HTML</span><span>Demonstracao</span><span>Gestão</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-shot" href="/Screenshot_2.png" target="_blank" rel="noreferrer">
+              <img src="/Screenshot_2.png" alt="Dashboard de gestão do PQueiroz Studio" loading="lazy" onerror="this.style.display='none'" />
+            </a>
+            <div class="project-info">
+              <div class="project-top">
+                <h4>Barbearia</h4>
+                <span class="tag">Landing page</span>
+              </div>
+              <p>
+               Landing page com o intuito de mostrar o servico da loja.
+              </p>
+              <div class="chips"><span>Landing page</span><span>Demonstracao</span><span>Servicos</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="section" id="xp">
+        <div class="section-head">
+          <h3>Experiência</h3>
+          <span class="head-line"></span>
+        </div>
+        <div class="xp-item">
+          <div class="xp-head">
+            <h4>Aquecedores Fortes</h4>
+            <span class="xp-loc">São Paulo, BR (Remoto)</span>
+          </div>
+
+          <div class="xp-role">
+            <div class="xp-role-line">
+              <b>Desenvolvedor Front-end junior</b>
+              <span class="xp-sched">Integral</span>
+            </div>
+            <div class="xp-dates">09.2026 - atual · 1m</div>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </div>
+        <div class="xp-item">
+          <div class="xp-head">
+            <h4>Freelancer</h4>
+            <span class="xp-loc">Remoto</span>
+          </div>
+          <div class="xp-role">
+            <div class="xp-role-line">
+              <b>Desenvolvedor Freelancer</b>
+              <span class="xp-sched">Meio período</span>
+            </div>
+            <div class="xp-dates">2025 - 2026</div>
+            <div class="chips"><span>Landing pages</span><span>Automações</span><span>Bots</span><span>Sites institucionais</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="section" id="edu">
+        <div class="section-head">
+          <h3>Formação</h3>
+          <span class="head-line"></span>
+        </div>
+
+        <div class="xp-item">
+          <div class="xp-head">
+            <h4>Universidade Senac Santo Amaro</h4>
+            <span class="xp-loc">São Paulo, BR</span>
+          </div>
+          <div class="xp-role">
+            <div class="xp-role-line">
+              <b>Ciência da Computação</b>
+              <span class="xp-sched">Graduação</span>
+            </div>
+            <div class="xp-dates">02.2026 - 12.2030- · 4a</div>
+            <div class="chips"><span>Banco de dados</span><span>Programacao Web</span><span>Back-end</span></div>
+          </div>
+        </div>
+      <!-- SERVICES -->
+      <section class="section" id="servicos">
+        <div class="section-head">
+          <h3>Serviços</h3>
+          <span class="head-line"></span>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-label">Dev</span>
+            <h4>Freelancer</h4>
+            <p class="service-sub">Desenvolvimento de Sites e automacoes </p>
+            <p class="service-desc">
+              Criacao de landing-pages | Bots | Automacoes | Sites institucionais
+            </p>
+          </article>
+          <article class="service-card">
+            <span class="service-label">Empresa</span>
+            <h4>Suporte</h4>
+            <p class="service-sub"> Manutencao · Suporte · Automacao</p>
+            <p class="service-desc">
+              Forneco total suporte ao site e cuido das automacoes para facilitar o dia a dia da empresa.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT / FOOTER -->
+      <footer class="footer" id="contato">
+        <h3 class="footer-title">Vamos conversar?</h3>
+        <a class="footer-mail" href="mailto:contato@seunome.dev">pqueirozdev@gmail.com</a>
+        <p class="footer-note">Aberto a conversas sobre projeto e freelance</p>
+
+        <div class="socials">
+          <a href="https://github.com/PQueirozDev" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="nkedin.com/in/pedro-henrique-da-silva-queiroz-3a073a353/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href=https://www.instagram.com/pqueirozstudio/ target="_blank" rel="noreferrer">Instagram</a>
+          <a href="/cv.docx" download>CV</a>
+        </div>
+
+        <p class="copy">© 2026 · Feito por Pedro Queiroz <span class="blink">▌</span></p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
