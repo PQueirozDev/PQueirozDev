@@ -114,11 +114,18 @@ a { color: inherit; text-decoration: none; }
   background: radial-gradient(circle at 30% 30%, #182238, #0b101b);
   display: grid;
   place-items: center;
+  overflow: hidden;
   font-family: var(--font-mono);
   font-size: 28px;
   font-weight: 700;
   color: var(--accent);
   text-shadow: 0 0 18px rgba(59, 130, 246, 0.35);
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .status-dot {
