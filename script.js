@@ -2,19 +2,70 @@
    Portfolio — interactions
    ============================================================ */
 
-// ---------- local time clock (sidebar) ----------
+// ---------- business hours status & local clock (sidebar) ----------
+function isBusinessHours() {
+  try {
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Sao_Paulo",
+      weekday: "short",
+      hour: "numeric",
+      minute: "numeric",
+      hourCycle: "h23",
+    }).formatToParts(new Date());
+
+    const map = {};
+    for (const p of parts) {
+      map[p.type] = p.value;
+    }
+
+    const isWeekday = ["Mon", "Tue", "Wed", "Thu", "Fri"].includes(map.weekday);
+    const hour = parseInt(map.hour, 10);
+    const minute = parseInt(map.minute, 10);
+    const totalMinutes = hour * 60 + minute;
+
+    // Segunda a sexta, das 08:00 até as 18:00 (08:00 até 17:59)
+    return isWeekday && totalMinutes >= 8 * 60 && totalMinutes < 18 * 60;
+  } catch (err) {
+    const now = new Date();
+    const day = now.getDay();
+    const hour = now.getHours();
+    return day >= 1 && day <= 5 && hour >= 8 && hour < 18;
+  }
+}
+
+function updateStatus() {
+  const statusText = document.getElementById("status-text");
+  const statusDot = document.getElementById("status-dot");
+  const available = isBusinessHours();
+  const isEn = document.documentElement.lang && document.documentElement.lang.startsWith("en");
+
+  const text = available
+    ? (isEn ? "Available" : "Disponível")
+    : (isEn ? "Unavailable" : "Indisponível");
+
+  if (statusText) {
+    statusText.textContent = text;
+    statusText.classList.toggle("status-offline", !available);
+  }
+
+  if (statusDot) {
+    statusDot.classList.toggle("offline", !available);
+    statusDot.setAttribute("title", text);
+  }
+}
+
 (function clock() {
   const el = document.getElementById("clock");
-  if (!el) return;
 
   const fmt = new Intl.DateTimeFormat("pt-BR", {
     hour: "2-digit",
     minute: "2-digit",
-    timeZone: "America/Sao_Paulo", // change to your timezone
+    timeZone: "America/Sao_Paulo",
   });
 
   const tick = () => {
-    el.textContent = fmt.format(new Date());
+    if (el) el.textContent = fmt.format(new Date());
+    updateStatus();
   };
 
   tick();
@@ -61,6 +112,9 @@
     "Base": "Based in",
     "Hora local": "Local time",
     "Disponível": "Available",
+    "Indisponível": "Unavailable",
+    "Online": "Online",
+    "Offline": "Offline",
     "Seções": "Sections",
     "Ações rápidas": "Quick actions",
     "Falar comigo pelo WhatsApp": "Talk to me on WhatsApp",
@@ -171,7 +225,13 @@
     localStorage.setItem("portfolio-language", language);
     button.textContent = language === "pt" ? "EN" : "PT";
     document.documentElement.lang = language === "pt" ? "pt-BR" : "en";
+    updateStatus();
   });
+
+  const savedLang = localStorage.getItem("portfolio-language");
+  if (savedLang === "en") {
+    button.click();
+  }
 })();
 
 // ---------- smooth anchor offset (sticky sidebar doesn't offset, kept simple) ----------

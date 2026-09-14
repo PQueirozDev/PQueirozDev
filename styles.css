@@ -136,6 +136,12 @@ a { color: inherit; text-decoration: none; }
   background: var(--accent);
   border: 2px solid var(--bg);
   box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.status-dot.offline {
+  background: var(--text-faint);
+  box-shadow: none;
 }
 
 .side-name {
@@ -205,6 +211,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .meta-row b.clock { font-family: var(--font-mono); color: var(--accent); }
+.meta-row b.status-offline { color: var(--text-dim); }
 
 .side-bio {
   margin-top: 16px;
