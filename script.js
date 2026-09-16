@@ -107,6 +107,45 @@ function updateStatus() {
   if (!button) return;
 
   const ptToEn = {
+    "IDEIAS GANHAM ESPAÇO": "SPACE FOR YOUR IDEAS",
+    "Feedbacks ilustrativos": "Illustrative feedback",
+    "Exemplos fictícios para demonstrar o layout. Não são depoimentos de clientes reais.": "Fictional examples to demonstrate the layout. These are not real customer testimonials.",
+    "EXEMPLO FICTÍCIO": "FICTIONAL EXAMPLE",
+    "“A apresentação ficou clara e encontrar os serviços ficou muito mais fácil.”": "“The presentation was clear, and finding the services became much easier.”",
+    "“Ter clientes e projetos organizados em um painel deixou a rotina mais simples.”": "“Having clients and projects organized in one dashboard made everyday work simpler.”",
+    "“Gostei de acompanhar as etapas e entender o que estava sendo desenvolvido.”": "“I enjoyed following each stage and understanding what was being built.”",
+    "Persona fictícia · Comércio local": "Fictional persona · Local business",
+    "Persona fictícia · Gestão de negócios": "Fictional persona · Business management",
+    "Persona fictícia · Serviços": "Fictional persona · Services",
+    "Defino escopo, prazo e investimento desde o início, sem surpresas.": "I define the scope, timeline, and budget from the start, with no surprises.",
+    "Desenvolvo com seu feedback": "I build with your feedback",
+    "Publico seu projeto e sigo disponível depois da entrega.": "I launch your project and remain available after delivery.",
+    "Tecnologias": "Technologies",
+    "Empresa": "Business",
+    "São Paulo, BR": "São Paulo, Brazil",
+    "02.2026 - 12.2030 · 4 anos": "02.2026 - 12.2030 · 4 years",
+    "Dashboard de gestão do PQueiroz Studio": "PQueiroz Studio management dashboard",
+    "Atelier 31 — Seu estilo. Nossa precisão.": "Atelier 31 — Your style. Our precision.",
+    "Bravus Barbearia — Seu estilo. Sua marca. Nosso ofício.": "Bravus Barbearia — Your style. Your mark. Our craft.",
+    "Projeto": "Project",
+    "Projeto interativo": "Interactive project",
+    "Explorar projeto": "Explore project",
+    "Explorar demo fictícia": "Explore fictional demo",
+    "Demo independente com dados fictícios, inspirada no painel de gestão. Não acessa o sistema privado.": "Standalone demo with fictional data, inspired by the management dashboard. It does not access the private system.",
+    "Conheça o site da Atelier 31 e explore suas páginas dentro do portfólio.": "Visit the Atelier 31 website and explore its pages within this portfolio.",
+    "Conheça o site da Bravus Barbearia e navegue pela apresentação dos serviços.": "Visit the Bravus Barbearia website and explore its services.",
+    "Fechar": "Close",
+    "Reiniciar": "Restart",
+    "Celular": "Mobile",
+    "Abrir em nova aba": "Open in new tab",
+    "Navegue pelo projeto abaixo. Se ele não aparecer, use “Abrir em nova aba”.": "Explore the project below. If it does not appear, use “Open in new tab”.",
+    "Pedro Queiroz, desenvolvedor front-end. Sites, sistemas e automações para facilitar o dia a dia de empresas. Conheça meus projetos.": "Pedro Queiroz, front-end developer. Websites, systems, and automations to simplify everyday business tasks. Explore my projects.",
+    "Estudante de Ciência da Computação no Senac, em São Paulo. Minha experiência reúne projetos próprios e desenvolvimento para empresas.": "Computer Science student at Senac in São Paulo. My experience includes personal projects and development for businesses.",
+    "Sites e sistemas": "Websites and systems",
+    "para o seu negócio.": "for your business.",
+    "Sou Pedro, desenvolvedor front-end. Crio sites, interfaces e automações para apresentar sua empresa e facilitar o trabalho do dia a dia.": "I'm Pedro, a front-end developer. I build websites, interfaces, and automations to showcase your business and simplify everyday work.",
+    "Conversar sobre meu projeto": "Discuss my project",
+    "Ver currículo": "View resume",
     "Projeto em destaque": "Featured project",
     "Um sistema para organizar orçamentos, clientes e serviços.": "A system to organize quotes, customers, and services.",
     "Sistema de orçamentos da Aquecedores Fortes": "Aquecedores Fortes quote management system",
@@ -161,7 +200,7 @@ function updateStatus() {
     "Landing page com o intuito de mostrar o serviço da loja.": "Landing page designed to showcase the store's services.",
     "Serviços": "Services",
     "Do briefing ao lançamento": "From briefing to launch",
-    "Como funciona meu trabalho": "How my work works",
+    "Como funciona meu trabalho": "How I work",
     "Transformo sua ideia em um site rápido, moderno e focado nos objetivos do seu negócio.": "I turn your idea into a fast, modern website focused on your business goals.",
     "Solicitar orçamento grátis": "Request a free quote",
     "Etapa 1": "Step 1",
@@ -245,13 +284,14 @@ function updateStatus() {
       if (dictionary[descriptionKey]) description.content = dictionary[descriptionKey];
     }
     language = language === "pt" ? "en" : "pt";
-    localStorage.setItem("portfolio-language", language);
+    try { localStorage.setItem("portfolio-language", language); } catch {}
     button.textContent = language === "pt" ? "EN" : "PT";
     document.documentElement.lang = language === "pt" ? "pt-BR" : "en";
     updateStatus();
   });
 
-  const savedLang = localStorage.getItem("portfolio-language");
+  let savedLang;
+  try { savedLang = localStorage.getItem("portfolio-language"); } catch {}
   if (savedLang === "en") {
     button.click();
   }
@@ -265,6 +305,6 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     const target = document.querySelector(id);
     if (!target) return;
     e.preventDefault();
-    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    target.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? "auto" : "smooth", block: "start" });
   });
 });

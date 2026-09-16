@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PQueiroz Studio · Demo fictícia</title><link rel="stylesheet" href="demo.css"></head>
+<body>
+  <div class="demo-banner">DEMO FICTÍCIA · Explore à vontade. Os dados são exemplos e as alterações duram apenas nesta visita.</div>
+  <header><a class="brand" href="#overview">PQ<span>Studio / Gestão</span></a><button id="reset" type="button">Restaurar demo</button></header>
+  <div class="layout">
+    <nav aria-label="Áreas do painel"><a href="#overview">Visão geral</a><a href="#projects">Projetos</a><a href="#clients">Clientes</a></nav>
+    <main>
+      <section id="overview"><p class="eyebrow">SEU NEGÓCIO EM UM SÓ LUGAR</p><h1>Bom trabalho começa<br>com organização.</h1><p class="muted">Uma demonstração interativa de gestão de projetos e clientes.</p>
+        <div class="metrics"><article><span>Receita prevista</span><strong id="revenue"></strong><small>Valor dos projetos de exemplo</small></article><article><span>Projetos em andamento</span><strong id="active"></strong><small>Da ideia à entrega</small></article><article><span>Clientes</span><strong id="client-count"></strong><small>Relacionamentos em um só lugar</small></article></div>
+        <div class="panel"><h2>Experimente o painel</h2><p>Crie um projeto, filtre a lista e marque uma entrega como concluída. Os indicadores acompanham suas alterações.</p><a class="primary" href="#projects">Gerenciar projetos →</a></div>
+      </section>
+      <section id="projects" hidden><p class="eyebrow">DO BRIEFING À ENTREGA</p><h1>Projetos</h1><div class="filters"><label>Buscar projeto<input id="search" type="search" placeholder="Nome do projeto ou cliente"></label><label>Status<select id="filter"><option value="all">Todos</option><option>Em andamento</option><option>Concluído</option></select></label></div><div id="project-list" class="project-list"></div>
+        <form id="project-form" class="panel"><h2>Novo projeto de exemplo</h2><div class="form-grid"><label>Nome do projeto<input name="name" required maxlength="70" placeholder="Ex.: Site do Café Aurora"></label><label>Cliente<select name="client" id="client-options"></select></label><label>Valor previsto (R$)<input name="value" type="number" min="0" max="1000000" step="0.01" required value="1500"></label></div><button class="primary" type="submit">Adicionar projeto</button></form>
+      </section>
+      <section id="clients" hidden><p class="eyebrow">CONEXÕES QUE VIRAM PROJETOS</p><h1>Clientes</h1><div id="client-list" class="project-list"></div><form id="client-form" class="panel"><h2>Novo cliente de exemplo</h2><label>Nome da empresa<input name="name" required maxlength="70" placeholder="Use um nome fictício"></label><button type="submit" class="primary">Adicionar cliente</button></form></section>
+      <p id="feedback" role="status" aria-live="polite"></p>
+    </main>
+  </div>
+  <script src="demo-locale.js"></script>
+  <script src="demo.js"></script>
+</body></html>

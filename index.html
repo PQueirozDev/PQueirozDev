@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pedro Queiroz | Portfolio</title>
-  <meta name="description" content="Desenvolvedor Full Stack. Conheça meus projetos, experiências e conteúdo sobre desenvolvimento e tecnologia." />
+  <meta name="description" content="Pedro Queiroz, desenvolvedor front-end. Sites, sistemas e automações para facilitar o dia a dia de empresas. Conheça meus projetos." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&gt;_</text></svg>" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="space.css" />
 </head>
 <body>
   <!-- glow decor -->
@@ -52,7 +53,7 @@
         </div>
 
         <p class="side-bio">
-          Sou desenvolvedor front-end e estudante de Ciência da Computação no Senac. Também desenvolvo e vendo sites para empresas, ajudando negócios a terem presença digital profissional.
+          Estudante de Ciência da Computação no Senac, em São Paulo. Minha experiência reúne projetos próprios e desenvolvimento para empresas.
         </p>
 
         <nav class="side-nav" aria-label="Seções">
@@ -76,15 +77,17 @@
 
       <!-- HERO -->
       <section class="hero">
-        <p class="hero-kicker">$ whoami<span class="cursor">_</span></p>
-        <h2 class="hero-title">Construo coisas<br /><span class="grad">que funcionam.</span></h2>
+        <p class="hero-kicker">IDEIAS GANHAM ESPAÇO</p>
+        <div class="orbit-art" aria-hidden="true"><div class="planet"></div><div class="orbit-ring"></div><span class="orbit-moon"></span></div>
+        <h2 class="hero-title">Sites e sistemas<br /><span class="grad">para o seu negócio.</span></h2>
         <p class="hero-sub">
-         Dev front-end, apaixonado por transformar ideias em interfaces bonitas e funcionais. Estudo Ciência da Computação no Senac e desenvolvo sites para empresas que querem presença digital profissional. Aqui você encontra meus projetos, um pouco do que aprendo pelo caminho e como podemos trabalhar juntos.
+          Sou Pedro, desenvolvedor front-end. Crio sites, interfaces e automações para apresentar sua empresa e facilitar o trabalho do dia a dia.
         </p>
         <div class="hero-cta">
+          <a class="btn btn-primary" href="https://wa.me/5511947762153?text=Ol%C3%A1%2C%20quero%20conversar%20sobre%20um%20projeto." target="_blank" rel="noreferrer">Conversar sobre meu projeto</a>
           <a class="btn btn-ghost" href="#projetos">Ver meus projetos</a>
-          <a class="btn btn-primary" href="#contato">Entrar em contato</a>
         </div>
+        <p class="hero-links"><a href="https://github.com/PQueirozDev" target="_blank" rel="noreferrer">GitHub</a><span aria-hidden="true">·</span><a href="cv.html" target="_blank" rel="noreferrer">Ver currículo</a></p>
       </section>
 
       <!-- SKILLS MARQUEE -->
@@ -169,7 +172,7 @@
           </article>
 
           <article class="project-card">
-            <a class="project-shot" href="img/Screenshot_4.png" target="_blank" rel="noreferrer">
+            <a class="project-shot explore-project" href="demo.html" data-project="PQueiroz Studio · Demo">
               <img src="img/Screenshot_4.png" alt="Dashboard de gestão do PQueiroz Studio" loading="lazy" onerror="this.style.display='none'" />
             </a>
             <div class="project-info">
@@ -182,38 +185,42 @@
                 o dashboard que uso para administrar meus projetos e clientes.
               </p>
               <div class="chips"><span>JavaScript</span><span>Dashboard</span><span>Gestão</span></div>
+              <a class="btn btn-primary explore-project" href="demo.html" data-project="PQueiroz Studio · Demo">Explorar demo fictícia</a>
+              <p>Demo independente com dados fictícios, inspirada no painel de gestão. Não acessa o sistema privado.</p>
             </div>
           </article>
 
           <article class="project-card">
-            <a class="project-shot" href="img/Screenshot_3.png" target="_blank" rel="noreferrer">
-              <img src="img/Screenshot_3.png" alt="Site e cadastro de clientes para Barbearia" loading="lazy" onerror="this.style.display='none'" />
+            <a class="project-shot explore-project" href="https://atelier-31-barbearia.vercel.app/" data-project="Atelier 31">
+              <img src="img/atelier-31.png" alt="Atelier 31 — Seu estilo. Nossa precisão." loading="lazy" width="1904" height="946" />
             </a>
             <div class="project-info">
               <div class="project-top">
-                <h4>Barbearia</h4>
+                <h4>Atelier 31</h4>
                 <span class="tag">Site e cadastro de clientes</span>
               </div>
               <p>
-                Site institucional com demonstração dos serviços e cadastro de clientes.
+                Conheça o site da Atelier 31 e explore suas páginas dentro do portfólio.
               </p>
               <div class="chips"><span>HTML</span><span>Demonstração</span><span>Gestão</span></div>
+              <a class="btn btn-primary explore-project" href="https://atelier-31-barbearia.vercel.app/" data-project="Atelier 31">Explorar projeto</a>
             </div>
           </article>
 
           <article class="project-card">
-            <a class="project-shot" href="img/Screenshot_2.png" target="_blank" rel="noreferrer">
-              <img src="img/Screenshot_2.png" alt="Landing page para Barbearia" loading="lazy" onerror="this.style.display='none'" />
+            <a class="project-shot explore-project" href="https://pqueirozdev.github.io/bravus-barbearia/" data-project="Bravus Barbearia">
+              <img src="img/bravus-barbearia.png" alt="Bravus Barbearia — Seu estilo. Sua marca. Nosso ofício." loading="lazy" width="1901" height="947" />
             </a>
             <div class="project-info">
               <div class="project-top">
-                <h4>Barbearia</h4>
+                <h4>Bravus Barbearia</h4>
                 <span class="tag">Landing page</span>
               </div>
               <p>
-               Landing page com o intuito de mostrar o serviço da loja.
+                Conheça o site da Bravus Barbearia e navegue pela apresentação dos serviços.
               </p>
               <div class="chips"><span>Landing page</span><span>Demonstração</span><span>Serviços</span></div>
+              <a class="btn btn-primary explore-project" href="https://pqueirozdev.github.io/bravus-barbearia/" data-project="Bravus Barbearia">Explorar projeto</a>
             </div>
           </article>
         </div>
@@ -337,6 +344,16 @@
         </div>
       </section>
 
+      <section class="section" id="feedbacks" aria-labelledby="feedbacks-title">
+        <div class="section-head"><h3 id="feedbacks-title">Feedbacks ilustrativos</h3><span class="head-line"></span></div>
+        <p class="feedback-disclaimer">Exemplos fictícios para demonstrar o layout. Não são depoimentos de clientes reais.</p>
+        <div class="feedback-grid">
+          <figure class="feedback-card"><span class="feedback-label">EXEMPLO FICTÍCIO</span><blockquote>“A apresentação ficou clara e encontrar os serviços ficou muito mais fácil.”</blockquote><figcaption><span class="feedback-avatar" aria-hidden="true">01</span><span>Persona fictícia · Comércio local</span></figcaption></figure>
+          <figure class="feedback-card"><span class="feedback-label">EXEMPLO FICTÍCIO</span><blockquote>“Ter clientes e projetos organizados em um painel deixou a rotina mais simples.”</blockquote><figcaption><span class="feedback-avatar" aria-hidden="true">02</span><span>Persona fictícia · Gestão de negócios</span></figcaption></figure>
+          <figure class="feedback-card"><span class="feedback-label">EXEMPLO FICTÍCIO</span><blockquote>“Gostei de acompanhar as etapas e entender o que estava sendo desenvolvido.”</blockquote><figcaption><span class="feedback-avatar" aria-hidden="true">03</span><span>Persona fictícia · Serviços</span></figcaption></figure>
+        </div>
+      </section>
+
       <!-- CONTACT / FOOTER -->
       <footer class="footer" id="contato">
         <h3 class="footer-title">Vamos conversar?</h3>
@@ -356,6 +373,19 @@
     </main>
   </div>
 
+  <dialog class="project-browser" aria-labelledby="browser-title">
+    <div class="browser-heading"><strong id="browser-title">Projeto</strong><button type="button" id="browser-close" autofocus>Fechar</button></div>
+    <div class="browser-toolbar">
+      <button type="button" id="browser-reload">Reiniciar</button>
+      <span class="browser-address" id="browser-address"></span>
+      <button type="button" id="browser-mobile" aria-pressed="false">Celular</button>
+      <a id="browser-external" target="_blank" rel="noopener noreferrer">Abrir em nova aba</a>
+    </div>
+    <p class="browser-hint">Navegue pelo projeto abaixo. Se ele não aparecer, use “Abrir em nova aba”.</p>
+    <div class="browser-viewport"><iframe id="project-frame" title="Projeto interativo" referrerpolicy="strict-origin-when-cross-origin" sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"></iframe></div>
+  </dialog>
   <script src="script.js"></script>
+  <script src="project-browser.js"></script>
+  <script src="space-effects.js"></script>
 </body>
 </html>
