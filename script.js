@@ -107,6 +107,18 @@ function updateStatus() {
   if (!button) return;
 
   const ptToEn = {
+    "Projeto em destaque": "Featured project",
+    "Um sistema para organizar orçamentos, clientes e serviços.": "A system to organize quotes, customers, and services.",
+    "Sistema de orçamentos da Aquecedores Fortes": "Aquecedores Fortes quote management system",
+    "Interface do sistema de orçamentos · Aquecedores Fortes": "Quote management interface · Aquecedores Fortes",
+    "O desafio": "The challenge",
+    "Facilitar o dia a dia da empresa na elaboração de orçamentos e na organização de clientes e serviços.": "Make the company's daily work easier when preparing quotes and organizing customers and services.",
+    "Minha contribuição": "My contribution",
+    "Desenvolvimento front-end do sistema interno, com HTML, CSS e JavaScript, e trabalho na interface e experiência de uso.": "Front-end development of the internal system using HTML, CSS, and JavaScript, with work on the interface and user experience.",
+    "A solução": "The solution",
+    "Um sistema web que reúne orçamentos, catálogo de aquecedores por marca, incluindo Lorenzetti e Rinnai, e gestão de clientes e serviços.": "A web system combining quotes, a heater catalog organized by brand, including Lorenzetti and Rinnai, and customer and service management.",
+    "Ampliar interface": "Enlarge screenshot",
+    "Quero um projeto assim": "I want a project like this",
     "Desenvolvedor Full Stack. Conheça meus projetos, experiências e conteúdo sobre desenvolvimento e tecnologia.": "Full Stack Developer. Explore my projects, experience, and content about development and technology.",
     "Dev Front-end · Automações": "Front-end Developer · Automations",
     "Base": "Based in",
