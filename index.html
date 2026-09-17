@@ -14,6 +14,24 @@
   <link rel="stylesheet" href="space.css" />
 </head>
 <body>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+  <button class="command-trigger" id="command-trigger" type="button" aria-haspopup="dialog" aria-controls="command-palette">
+    <span class="command-dot" aria-hidden="true"></span><span id="command-current">Início</span><kbd>Ctrl K</kbd>
+  </button>
+  <dialog class="command-palette" id="command-palette" aria-labelledby="command-title">
+    <form method="dialog" class="command-shell">
+      <div class="command-head"><span class="command-dot" aria-hidden="true"></span><strong id="command-title">Navegar pelo portfólio</strong><button value="cancel" aria-label="Fechar">×</button></div>
+      <p>Escolha um destino ou use as teclas <kbd>↑</kbd> <kbd>↓</kbd> <kbd>Enter</kbd>.</p>
+      <div class="command-list" role="listbox" aria-label="Seções do portfólio">
+        <button type="button" data-target="top"><span>01</span>Início <small>Apresentação</small></button>
+        <button type="button" data-target="projetos"><span>02</span>Projetos <small>Cases selecionados</small></button>
+        <button type="button" data-target="como-funciona"><span>03</span>Processo <small>Como eu trabalho</small></button>
+        <button type="button" data-target="xp"><span>04</span>Experiência <small>Trajetória</small></button>
+        <button type="button" data-target="servicos"><span>05</span>Serviços <small>O que posso criar</small></button>
+        <button type="button" data-target="contato"><span>06</span>Contato <small>Vamos conversar</small></button>
+      </div>
+    </form>
+  </dialog>
   <!-- glow decor -->
   <div class="glow glow-1" aria-hidden="true"></div>
   <div class="glow glow-2" aria-hidden="true"></div>
@@ -78,6 +96,11 @@
       <!-- HERO -->
       <section class="hero">
         <p class="hero-kicker">IDEIAS GANHAM ESPAÇO</p>
+        <div class="hero-profile" aria-label="Perfil de Pedro Queiroz">
+          <div class="hero-avatar"><img src="img/logo.jpg" alt="Pedro Queiroz" /><span></span></div>
+          <div><strong>Pedro Queiroz</strong><small>Front-end · Automação · UI</small></div>
+          <div class="hero-socials"><a href="https://github.com/PQueirozDev" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="devicon-github-original"></i></a><a href="https://www.linkedin.com/in/pedro-henrique-da-silva-queiroz-3a073a353/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="devicon-linkedin-plain"></i></a></div>
+        </div>
         <div class="orbit-art" aria-hidden="true"><div class="planet"></div><div class="orbit-ring"></div><span class="orbit-moon"></span></div>
         <h2 class="hero-title">Sites e sistemas<br /><span class="grad">para o seu negócio.</span></h2>
         <p class="hero-sub">
@@ -88,6 +111,17 @@
           <a class="btn btn-ghost" href="#projetos">Ver meus projetos</a>
         </div>
         <p class="hero-links"><a href="https://github.com/PQueirozDev" target="_blank" rel="noreferrer">GitHub</a><span aria-hidden="true">·</span><a href="cv.html" target="_blank" rel="noreferrer">Ver currículo</a></p>
+      </section>
+      <section class="stack-showcase" aria-label="Stack principal">
+        <div class="stack-intro"><span class="tag">Minha stack</span><p>Tecnologias que uso para transformar ideias em produtos digitais.</p></div>
+        <div class="stack-grid">
+          <span class="stack-item"><i class="devicon-html5-plain colored"></i><b>HTML5</b><small>Estrutura</small></span>
+          <span class="stack-item"><i class="devicon-css3-plain colored"></i><b>CSS3</b><small>Experiência visual</small></span>
+          <span class="stack-item"><i class="devicon-javascript-plain colored"></i><b>JavaScript</b><small>Interações</small></span>
+          <span class="stack-item"><i class="devicon-react-original colored"></i><b>React</b><small>Interfaces</small></span>
+          <span class="stack-item"><i class="devicon-nodejs-plain colored"></i><b>Node.js</b><small>Back-end</small></span>
+          <span class="stack-item"><i class="devicon-python-plain colored"></i><b>Python</b><small>Automação</small></span>
+        </div>
       </section>
 
       <!-- SKILLS MARQUEE -->
@@ -304,9 +338,10 @@
 
         <div class="xp-item">
           <div class="xp-head">
-            <h4>Universidade Senac Santo Amaro</h4>
+            <h4>Senac Nações Unidas</h4>
             <span class="xp-loc">São Paulo, BR</span>
           </div>
+          <figure class="education-photo"><img src="img/senac-nacoes-unidas.jpg" alt="Fachada do Senac Nações Unidas" loading="lazy" /><figcaption>Campus Senac Nações Unidas · Santo Amaro</figcaption></figure>
           <div class="xp-role">
             <div class="xp-role-line">
               <b>Ciência da Computação</b>
@@ -315,6 +350,11 @@
             <div class="xp-dates">02.2026 - 12.2030 · 4 anos</div>
             <div class="chips"><span>Banco de dados</span><span>Programação Web</span><span>Back-end</span></div>
           </div>
+        </div>
+        <div class="xp-item education-secondary">
+          <div class="xp-head"><h4>Senac Jabaquara</h4><span class="xp-loc">São Paulo, BR</span></div>
+          <figure class="education-photo"><img src="img/senac-jabaquara.jpg" alt="Fachada do Senac Jabaquara" loading="lazy" /><figcaption>Onde concluí o ensino médio técnico</figcaption></figure>
+          <div class="xp-role"><div class="xp-role-line"><b>Ensino Médio Técnico em Administração</b><span class="xp-sched">Curso técnico</span></div><div class="xp-dates">Formação concluída</div><div class="chips"><span>Administração</span><span>Gestão</span><span>Empreendedorismo</span></div></div>
         </div>
       </section>
 
@@ -387,5 +427,6 @@
   <script src="script.js"></script>
   <script src="project-browser.js"></script>
   <script src="space-effects.js"></script>
+  <script src="cosmic-ui.js"></script>
 </body>
 </html>
