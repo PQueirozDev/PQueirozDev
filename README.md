@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://pqueiroz.vercel.app/">Portfólio</a> &nbsp;·&nbsp;
+  <a href="https://pqueiroz.vercel.app/"><img src="https://img.shields.io/badge/PORTF%C3%93LIO-Visitar%20site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" alt="Visitar portfólio de Pedro Queiroz" /></a>
+  <br /><br />
   <a href="mailto:pedrohenriqueiroz158@gmail.com">Entre em contato</a> &nbsp;·&nbsp;
   <a href="https://github.com/PQueirozDev?tab=repositories">Repositórios</a>
 </p>
