@@ -5,7 +5,6 @@
 <p align="center">
   <a href="https://pqueiroz.vercel.app/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-pqueiroz.vercel.app-7A5CFF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" /></a>
   <a href="mailto:pedrohenriqueiroz158@gmail.com"><img src="https://img.shields.io/badge/E--mail-Fale%20comigo-2ED3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
-  <a href="https://github.com/PQueirozDev/QrzSpace-releases/releases/latest"><img src="https://img.shields.io/badge/QrzSpace-Baixar%20para%20Windows-8B93FF?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar o QrzSpace" /></a>
 </p>
 
 ## Sobre mim
@@ -50,9 +49,7 @@ Crio **sites, sistemas web, apps desktop e automações** — com cuidado com a 
 - 🎨 5 temas, interface em **português e inglês**, animações com *motion* e **atualização automática**
 - ✅ 190 testes automatizados + testes de ponta a ponta pela interface
 
-<p>
-  <a href="https://github.com/PQueirozDev/QrzSpace-releases/releases/latest"><b>⬇ Baixar para Windows</b></a> · código-fonte privado
-</p>
+<p><sub>🔒 Projeto pessoal e privado — uso próprio, sem distribuição pública.</sub></p>
 
 ## Outros projetos
 
