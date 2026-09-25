@@ -55,33 +55,47 @@ Crio **sites, sistemas web, apps desktop e automações** — com cuidado com a 
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://installall.vercel.app"><img src="./assets/installall.png" alt="InstallAll" /></a>
-      <h4><a href="https://github.com/PQueirozDev/InstallAll">InstallAll</a></h4>
-      Downloader de mídia pública com prévia, escolha de formato e progresso em tempo real.<br />
-      <sub><b>Next.js · TypeScript · Node.js · FFmpeg</b></sub><br />
-      <a href="https://installall.vercel.app">Ver aplicação ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://atelier-31-barbearia.vercel.app"><img src="./img/atelier-31.png" alt="Atelier 31" /></a>
+    <td width="33%" valign="top">
+      <a href="https://atelier-31-barbearia.vercel.app"><img src="./assets/atelier-31.jpg" alt="Atelier 31" /></a>
       <h4><a href="https://github.com/PQueirozDev/atelier-31-barbearia">Atelier 31</a></h4>
-      Site de barbearia com interface em React e integração com Supabase.<br />
-      <sub><b>React · TypeScript · Vite · Supabase</b></sub><br />
-      <a href="https://atelier-31-barbearia.vercel.app">Ver aplicação ↗</a>
+      Barbearia com agendamento online real, escolha de barbeiro e área da equipe.<br />
+      <sub><b>React · TypeScript · Supabase</b></sub><br />
+      <a href="https://atelier-31-barbearia.vercel.app">Ver site ↗</a>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://pqueirozdev.github.io/bravus-barbearia/"><img src="./img/bravus-barbearia.png" alt="Bravus Barbearia" /></a>
+    <td width="33%" valign="top">
+      <a href="https://pqueirozdev.github.io/bravus-barbearia/"><img src="./assets/bravus-barbearia.jpg" alt="Bravus Barbearia" /></a>
       <h4><a href="https://github.com/PQueirozDev/bravus-barbearia">Bravus Barbearia</a></h4>
-      Landing page responsiva com simulação de agendamento.<br />
+      Identidade street, tabela de preços interativa e reserva pelo WhatsApp.<br />
       <sub><b>HTML · CSS · JavaScript</b></sub><br />
       <a href="https://pqueirozdev.github.io/bravus-barbearia/">Ver site ↗</a>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
+      <a href="https://pqueirozdev.github.io/lumina-estetica/"><img src="./assets/lumina-estetica.jpg" alt="Lúmina Estética" /></a>
+      <h4><a href="https://github.com/PQueirozDev/lumina-estetica">Lúmina Estética</a></h4>
+      Clínica de estética com diagnóstico interativo e agendamento.<br />
+      <sub><b>HTML · CSS · JavaScript</b></sub><br />
+      <a href="https://pqueirozdev.github.io/lumina-estetica/">Ver site ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://pqueiroz.vercel.app/capivarudo-demo.html"><img src="./assets/capivarudo-demo.jpg" alt="Capivarudo" /></a>
+      <h4><a href="https://github.com/PQueirozDev/Bot-Normermo">Capivarudo</a></h4>
+      Bot de segurança para Discord: painel, logs, anti-spam e anti-raid.<br />
+      <sub><b>TypeScript · discord.js · Prisma</b></sub><br />
+      <a href="https://pqueiroz.vercel.app/capivarudo-demo.html">Testar demo ↗</a>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://installall.vercel.app"><img src="./assets/installall.png" alt="InstallAll" /></a>
+      <h4><a href="https://github.com/PQueirozDev/InstallAll">InstallAll</a></h4>
+      Downloader de mídia pública com prévia e progresso em tempo real.<br />
+      <sub><b>Next.js · TypeScript · FFmpeg</b></sub><br />
+      <a href="https://installall.vercel.app">Ver aplicação ↗</a>
+    </td>
+    <td width="33%" valign="top">
       <a href="https://site-mu-six-24.vercel.app"><img src="./img/pqueiroz-optimizer.png" alt="PQueiroz Optimizer PRO" /></a>
       <h4>PQueiroz Optimizer PRO</h4>
-      Otimizador do Windows com perfis gamer e diário, limpeza, diagnósticos e manutenção (SFC, DISM, CHKDSK).<br />
+      Otimizador do Windows com perfis, limpeza e diagnósticos.<br />
       <sub><b>C# · .NET · Windows</b></sub><br />
       <a href="https://site-mu-six-24.vercel.app">Ver site ↗</a>
     </td>
