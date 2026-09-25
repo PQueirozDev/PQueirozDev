@@ -1,13 +1,95 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none">
-  <title>Pedro Queiroz — Front-end Developer</title>
-  <desc>Cabeçalho em grafite com tipografia clara e detalhes geométricos em azul.</desc>
-  <rect width="1200" height="320" rx="20" fill="#111820"/>
-  <path d="M866 0H1200V320H1010L866 176V0Z" fill="#162332"/>
-  <path d="M922 0V134L1108 320M1010 0V98L1200 288" stroke="#263C51"/>
-  <rect x="64" y="66" width="36" height="4" rx="2" fill="#7CB9F2"/>
-  <text x="64" y="132" fill="#F2F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5">Pedro Queiroz</text>
-  <text x="66" y="181" fill="#A9CFF4" font-family="Segoe UI, Arial, sans-serif" font-size="24">Front-end Developer</text>
-  <text x="66" y="239" fill="#AEBBCB" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="2">WEB &amp; AUTOMAÇÕES</text>
-  <rect x="981" y="100" width="120" height="120" rx="28" fill="#111820" stroke="#3A5874"/>
-  <text x="1041" y="176" text-anchor="middle" fill="#A9CFF4" font-family="Segoe UI, Arial, sans-serif" font-size="43" font-weight="600" letter-spacing="-2">PQ.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+  <title>Pedro Queiroz — Desenvolvedor Front-end · Web, Desktop &amp; Automações</title>
+  <desc>Cabeçalho escuro com tema espacial, estrelas animadas, uma órbita girando e o nome em degradê.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1124"/>
+      <stop offset="0.6" stop-color="#090b17"/>
+      <stop offset="1" stop-color="#05060c"/>
+    </linearGradient>
+    <radialGradient id="nebula" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 60) rotate(140) scale(420 260)">
+      <stop stop-color="#6f5cff" stop-opacity="0.45"/>
+      <stop offset="0.55" stop-color="#2ed3ee" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#2ed3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 330) scale(380 180)">
+      <stop stop-color="#3b82f6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="64" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#c3ccff"/>
+      <stop offset="1" stop-color="#8b93ff"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="900" y1="80" x2="1100" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c3ccff"/>
+      <stop offset="0.5" stop-color="#7a5cff"/>
+      <stop offset="1" stop-color="#2ed3ee"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="64" y1="0" x2="120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b93ff"/>
+      <stop offset="1" stop-color="#2ed3ee"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="340" rx="24"/></clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+    <style>
+      .tw { animation: tw 3.2s ease-in-out infinite; }
+      .tw2 { animation: tw 4.6s ease-in-out infinite 1.1s; }
+      .tw3 { animation: tw 2.6s ease-in-out infinite 0.6s; }
+      @keyframes tw { 0%, 100% { opacity: .25 } 50% { opacity: 1 } }
+      .orbit { transform-origin: 1000px 170px; animation: spin 18s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg) } }
+      .float { animation: float 6s ease-in-out infinite; }
+      @keyframes float { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
+      .dot { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1 } 50% { opacity: .35 } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#nebula)"/>
+    <rect width="1200" height="340" fill="url(#nebula2)"/>
+
+    <!-- Estrelas -->
+    <g fill="#ffffff">
+      <circle class="tw" cx="702" cy="48" r="1.6"/>
+      <circle class="tw2" cx="760" cy="112" r="1.1"/>
+      <circle class="tw3" cx="824" cy="36" r="1.3"/>
+      <circle class="tw" cx="1140" cy="44" r="1.2"/>
+      <circle class="tw2" cx="1164" cy="210" r="1.5"/>
+      <circle class="tw3" cx="1090" cy="298" r="1.1"/>
+      <circle class="tw" cx="880" cy="300" r="1.4"/>
+      <circle class="tw2" cx="640" cy="286" r="1"/>
+      <circle class="tw3" cx="560" cy="40" r="1.2"/>
+      <circle class="tw2" cx="470" cy="300" r="1.3"/>
+      <circle class="tw" cx="38" cy="30" r="1.1"/>
+      <circle class="tw3" cx="1180" cy="120" r="1"/>
+    </g>
+
+    <!-- Planeta com órbita -->
+    <g class="float">
+      <circle cx="1000" cy="170" r="64" fill="url(#ring)" opacity="0.35" filter="url(#glow)"/>
+      <circle cx="1000" cy="170" r="54" fill="#0b0e1c" stroke="url(#ring)" stroke-width="10"/>
+      <path d="M962 140 A54 54 0 0 1 1010 117" stroke="#ffffff" stroke-opacity="0.5" stroke-width="4" stroke-linecap="round"/>
+      <text x="1000" y="184" text-anchor="middle" fill="#dfe4ff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-1.5">PQ</text>
+    </g>
+    <g class="orbit">
+      <ellipse cx="1000" cy="170" rx="132" ry="48" stroke="#8b93ff" stroke-opacity="0.35" stroke-width="1.5" transform="rotate(-18 1000 170)"/>
+      <circle cx="1125" cy="130" r="6" fill="#2ed3ee"/>
+      <circle cx="1125" cy="130" r="12" fill="#2ed3ee" opacity="0.35" filter="url(#glow)"/>
+    </g>
+    <path class="tw" d="M1112 70 C1114 80 1117 83 1127 85 C1117 87 1114 90 1112 100 C1110 90 1107 87 1097 85 C1107 83 1110 80 1112 70 Z" fill="#ffffff"/>
+
+    <!-- Texto -->
+    <g>
+      <circle cx="69" cy="75" r="5" fill="#34d399" class="dot"/>
+      <text x="84" y="80" fill="#9aa6c7" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" letter-spacing="3">DISPONÍVEL PARA PROJETOS · SÃO PAULO</text>
+    </g>
+    <text x="62" y="150" fill="url(#name)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Pedro Queiroz</text>
+    <text x="64" y="198" fill="#c3ccff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="26" font-weight="500">Desenvolvedor Front-end</text>
+    <text x="64" y="250" fill="#8a94b3" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" letter-spacing="1.5">Sites · Sistemas web · Apps desktop · Automações com IA</text>
+    <rect x="64" y="276" width="56" height="4" rx="2" fill="url(#bar)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="338.5" rx="23.25" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
 </svg>
