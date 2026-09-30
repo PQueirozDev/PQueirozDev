@@ -51,7 +51,6 @@ Crio **sites, sistemas web, apps desktop e automações** — com cuidado com a 
 - 🎨 5 temas, interface em **português e inglês**, animações com *motion* e **atualização automática**
 - ✅ 208 testes automatizados + testes de ponta a ponta pela interface
 
-<p><sub>🔒 Projeto pessoal e privado — uso próprio, sem distribuição pública.</sub></p>
 
 ## Outros projetos
 
