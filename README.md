@@ -13,7 +13,7 @@ Sou **Pedro Queiroz**, desenvolvedor front-end e estudante de **Ciência da Comp
 
 Crio **sites, sistemas web, apps desktop e automações** — com cuidado com a experiência de uso, a organização do código e os detalhes visuais. Hoje trabalho como desenvolvedor na **Aquecedores Fortes** e atendo projetos próprios e de clientes.
 
-- 🚀 Construindo agora: **QrzSpace**, minha central de trabalho desktop com IA
+- 🚀 Construindo agora: **[Qyrex](https://github.com/PQueirozDev/Qyrex)**, minha central de trabalho desktop com IA, agora open source
 - 🎓 Ciência da Computação · Senac (2026–2030)
 - 💬 Aberto a projetos de sites, sistemas e automações
 
@@ -28,26 +28,28 @@ Crio **sites, sistemas web, apps desktop e automações** — com cuidado com a 
 
 <table>
   <tr>
-    <td width="96" valign="top"><img src="./assets/qrzspace-icon.png" width="80" alt="Ícone do QrzSpace" /></td>
+    <td width="96" valign="top"><img src="./assets/qyrex-icon.png" width="80" alt="Ícone do Qyrex: capivara em pixel art com uma laranja na cabeça" /></td>
     <td valign="top">
-      <h3>QrzSpace</h3>
+      <h3><a href="https://qyrexapp.vercel.app">Qyrex</a></h3>
       Central de trabalho desktop para devs e freelancers: projetos, tarefas, clientes, agenda, marketing, terminal, arquivos e IA num só lugar — abrindo VS Code, terminal e GitHub em um clique.
       <br /><br />
-      <b>Electron · React · TypeScript · SQLite · Tailwind</b>
+      <b>Electron · React · TypeScript · SQLite · Tailwind · open source (MIT)</b>
+      <br /><br />
+      <a href="https://qyrexapp.vercel.app">Site</a> · <a href="https://github.com/PQueirozDev/Qyrex">Código</a> · <a href="https://github.com/PQueirozDev/QrzSpace-releases/releases/latest">Download para Windows</a> · <a href="https://pqueiroz.vercel.app/qyrex-demo/">Demo no navegador</a>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="./assets/qrzspace-inicio.png" width="49%" alt="QrzSpace — tela inicial com tarefas, agenda e projetos" />
-  <img src="./assets/qrzspace-ia.png" width="49%" alt="QrzSpace — chat de IA com comando sugerido e mini player" />
+  <img src="./assets/qyrex-inicio.png" width="49%" alt="Qyrex — tela inicial com tarefas, agenda e projetos" />
+  <img src="./assets/qyrex-onsen.png" width="49%" alt="Pixel art do Qyrex: capivara com uma laranja na cabeça num onsen à noite, com um notebook numa bandeja" />
 </p>
 
 - 🤖 **IA integrada**: chat e *AI Council* (Claude, ChatGPT e Gemini lado a lado) — por API key ou pela própria assinatura, via Claude Code e Codex
 - 🔒 **Segurança em primeiro lugar**: a IA nunca executa nada sozinha, comandos pedem permissão, segredos ficam no cofre do Windows e o acesso a arquivos é limitado às pastas autorizadas
 - 🎵 **Mini player** estilo *Dynamic Island* com a música do Spotify, **Discord Rich Presence**, GitHub, Google Agenda e WhatsApp
 - 🎨 5 temas, interface em **português e inglês**, animações com *motion* e **atualização automática**
-- ✅ 190 testes automatizados + testes de ponta a ponta pela interface
+- ✅ 208 testes automatizados + testes de ponta a ponta pela interface
 
 <p><sub>🔒 Projeto pessoal e privado — uso próprio, sem distribuição pública.</sub></p>
 
