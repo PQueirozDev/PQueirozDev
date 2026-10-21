@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
-  <title>Pedro Queiroz — Desenvolvedor Front-end · Web, Desktop &amp; Automações</title>
+  <title>Pedro Queiroz — Desenvolvedor de Software · Web, Desktop &amp; Automações</title>
   <desc>Cabeçalho escuro com tema espacial, estrelas animadas, uma órbita girando e o nome em degradê.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
@@ -84,11 +84,11 @@
     <!-- Texto -->
     <g>
       <circle cx="69" cy="75" r="5" fill="#34d399" class="dot"/>
-      <text x="84" y="80" fill="#9aa6c7" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" letter-spacing="3">DISPONÍVEL PARA PROJETOS · SÃO PAULO</text>
+      <text x="84" y="80" fill="#9aa6c7" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" letter-spacing="3">ABERTO A ESTÁGIO E VAGAS JÚNIOR · SÃO PAULO</text>
     </g>
     <text x="62" y="150" fill="url(#name)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Pedro Queiroz</text>
-    <text x="64" y="198" fill="#c3ccff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="26" font-weight="500">Desenvolvedor Front-end</text>
-    <text x="64" y="250" fill="#8a94b3" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" letter-spacing="1.5">Sites · Sistemas web · Apps desktop · Automações com IA</text>
+    <text x="64" y="198" fill="#c3ccff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="26" font-weight="500">Desenvolvedor de Software</text>
+    <text x="64" y="250" fill="#8a94b3" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" letter-spacing="1.5">Web · Desktop · Automações · React · TypeScript · C# · C++</text>
     <rect x="64" y="276" width="56" height="4" rx="2" fill="url(#bar)"/>
   </g>
   <rect x="0.75" y="0.75" width="1198.5" height="338.5" rx="23.25" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
