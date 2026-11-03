@@ -35,6 +35,7 @@ Os estudos de caso, com problema, arquitetura, desafios e aprendizados, estão n
 <details>
 <summary><b>Outros projetos</b></summary>
 
+- **[Qhours](https://github.com/PQueirozDev/Qhours)**: registra horas de jogo na Steam sem abrir o jogo, com login Steam Guard e token protegido por DPAPI (C#, .NET 8, SteamKit2). [Site](https://qhours.vercel.app)
 - **[PQueiroz Video Studio](https://github.com/PQueirozDev/PQueiroz-Video-Studio)**: editor de vídeo guiado por conversa com o Claude (Electron, React, FFmpeg).
 - **[InstallAll](https://github.com/PQueirozDev/InstallAll)**: download de mídia pública compatível com API Express, validação contra SSRF e Docker.
 - **[Zekro](https://github.com/PQueirozDev/barberflow)**: SaaS de agendamento para barbearias (Next.js, Supabase).
