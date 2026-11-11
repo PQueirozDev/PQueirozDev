@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://pqueiroz.vercel.app/">Portfólio</a> ·
-  <a href="https://pqueiroz.vercel.app/Pedro-Queiroz-Curriculo.pdf">Currículo (PDF)</a> ·
+  <a href="https://pqueirozdev.com.br/">Portfólio</a> ·
+  <a href="https://pqueirozdev.com.br/Pedro-Queiroz-Curriculo.pdf">Currículo (PDF)</a> ·
   <a href="https://www.linkedin.com/in/pedro-henrique-da-silva-queiroz-3a073a353/">LinkedIn</a> ·
   <a href="mailto:pqueirozdev@gmail.com">pqueirozdev@gmail.com</a> ·
-  <a href="https://pqueiroz.vercel.app/en/">English</a>
+  <a href="https://pqueirozdev.com.br/en/">English</a>
 </p>
 
 ## Sobre mim
@@ -25,7 +25,7 @@ Sou **Pedro Queiroz**, estudante de **Ciência da Computação no Senac Nações
 | **[Qrztweaks](https://github.com/PQueirozDev/Optimizer)** | Otimização e manutenção do Windows: ajustes revisados item a item com backup e reversão, laboratório de desempenho e atualizações com hash assinado. Produto comercial. | C# · WPF · .NET 8 |
 | **[Atelier 31](https://github.com/PQueirozDev/atelier-31-barbearia)** | Site de barbearia (fictícia) com agendamento online, Row Level Security e bloqueio de horários duplicados no banco. | React · TypeScript · Supabase |
 
-Os estudos de caso, com problema, arquitetura, desafios e aprendizados, estão no **[portfólio](https://pqueiroz.vercel.app/#projetos)**.
+Os estudos de caso, com problema, arquitetura, desafios e aprendizados, estão no **[portfólio](https://pqueirozdev.com.br/#projetos)**.
 
 <p align="center">
   <a href="https://github.com/PQueirozDev/Qyrex"><img src="./assets/qyrex-inicio.png" width="49%" alt="Tela inicial do Qyrex com tarefas, agenda e projetos" /></a>
